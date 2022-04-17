@@ -61,7 +61,15 @@ so that I can publish articles, blog posts, and my thoughts and opinions.
  - THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete 
    comments.
 
- 
+ # Requirments
+   - Express-handlebars
+   - MySQL2
+   - Sequelize
+   - dotenv 
+   - bcrypt
+   - express-session
+   - connect-sesssion sequlize
+
   ## [Video](#table-of-contents)
  
    - Video Guide SEED & MYSQL- [video guide](https://www.awesomescreenshot.com/video/8212028?
