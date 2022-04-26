@@ -4,7 +4,7 @@
 
   ## Table-of-Contents
   * [Description and Task](#description)
-  * [Video](#video)   
+  * [Pcitures](#pictures)   
   * [License](#license)   
   * [Contributing](#contributing)
   * [Questions](#questions)
@@ -70,9 +70,13 @@ so that I can publish articles, blog posts, and my thoughts and opinions.
    - express-session
    - connect-sesssion sequlize
 
-  ## [Video](#table-of-contents)
+  ## [Pictures](#table-of-contents)
  
-   - Video Guide SEED & MYSQL- [video guide](https://www.awesomescreenshot.com/video/8212028?
+![test0](https://user-images.githubusercontent.com/95839411/165201394-43b2aaeb-74be-4bc2-ae25-d4d2ecb167cc.jpg)
+
+![test1](https://user-images.githubusercontent.com/95839411/165201411-6ac3934a-6973-443f-b46b-bc894f5a5c0b.png)
+
+![test2](https://user-images.githubusercontent.com/95839411/165201415-14f52638-6b99-497d-a6c9-bfb4e59f539f.jpg)
 
 
   ## [License](#table-of-contents)
