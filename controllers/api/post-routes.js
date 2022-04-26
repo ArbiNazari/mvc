@@ -35,8 +35,6 @@ router.get("/", (req, res) => {
             res.status(500).json(err);
         });
 });
-
-// Get a single post
 router.get("/:id", (req, res) => {
     Post.findOne({
             where: {
@@ -72,7 +70,6 @@ router.get("/:id", (req, res) => {
         });
 });
 
-// Create a post
 router.post("/", withAuth, (req, res) => {
     console.log("creating");
     Post.create({
@@ -87,7 +84,6 @@ router.post("/", withAuth, (req, res) => {
         });
 });
 
-// Update a post
 router.put("/:id", withAuth, (req, res) => {
     Post.update({
             title: req.body.title,

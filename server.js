@@ -2,8 +2,8 @@ const path = require('path');
 const express = require('express');
 const routes = require('./controllers');
 const sequelize = require('./config/connection');
-const helpers = require('./utils/helpers');
 const exphbs = require('express-handlebars');
+const helpers = require('./utils/helpers');
 const hbs = exphbs.create({
     helpers
 });
@@ -17,8 +17,8 @@ const sess = {
     saveUninitialized: true,
     store: new SequelizeStore({
         db: sequelize,
-        checkExpirationInterval: 1000 * 60 * 10,
-        expiration: 1000 * 60 * 30
+        checkExpirationInterval: 1000 * 90 * 30,
+        expiration: 1000 * 90 * 30
     })
 };
 
