@@ -10,6 +10,9 @@ const hbs = exphbs.create({
 const session = require('express-session');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
 
+const app = express();
+const PORT = process.env.PORT || 3096;
+
 const sess = {
     secret: process.env.DB_SECRET,
     cookie: {},
@@ -17,27 +20,27 @@ const sess = {
     saveUninitialized: true,
     store: new SequelizeStore({
         db: sequelize,
-        checkExpirationInterval: 1000 * 90 * 30,
-        expiration: 1000 * 90 * 30
     })
 };
 
-const app = express();
-const PORT = process.env.PORT || 3008;
+app.use(session(sess));
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
 
-app.use(session(sess));
-app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.json());
+app.use(express.static(path.join(__dirname, 'public')));
+
+
 app.use(express.urlencoded({
     extended: true
 }));
 app.use(routes);
 
-sequelize.sync();
+
 
 app.listen(PORT, () => {
     console.log(`App listening on port ${PORT}!`);
+    sequelize.sync({ force: true });
 });
+
