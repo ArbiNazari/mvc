@@ -80,8 +80,8 @@ so that I can publish articles, blog posts, and my thoughts and opinions.
 
 
   ## Heroku; https://git.heroku.com/tech-blog-arbi.git
-  ## Github: 
-  ## LiveUrl:
+  ## Github:  https://github.com/ArbiNazari/mvc
+  ## LiveUrl(VIDEO LINK): https://www.awesomescreenshot.com/video/8740949?key=aabcbd0abf5220499d904286665a5e3e
 
 
   ## [License](#table-of-contents)
