@@ -79,9 +79,9 @@ so that I can publish articles, blog posts, and my thoughts and opinions.
 ![test2](https://user-images.githubusercontent.com/95839411/165201415-14f52638-6b99-497d-a6c9-bfb4e59f539f.jpg)
 
 
-  ## Heroku; https://git.heroku.com/tech-blog-arbi.git
   ## Github:  https://github.com/ArbiNazari/mvc
   ## LiveUrl(VIDEO LINK): https://www.awesomescreenshot.com/video/8740949?key=aabcbd0abf5220499d904286665a5e3e
+  ## Heroku; https://tech-blog-arbi2.herokuapp.com/
 
 
   ## [License](#table-of-contents)
